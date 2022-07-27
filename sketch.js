@@ -1,4 +1,3 @@
-
 var PLAY = 1;
 var END = 0;
 var gameState = PLAY;
@@ -104,10 +103,6 @@ if(arrowGroup. isTouching(redB)){
 
   }
 
-if (frameCount>1000) {
-  //red.destroyEach();
-  gameState=END; 
-}
 
 
 
