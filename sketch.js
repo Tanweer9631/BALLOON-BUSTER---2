@@ -1,3 +1,4 @@
+
 var PLAY = 1;
 var END = 0;
 var gameState = PLAY;
@@ -88,9 +89,7 @@ function draw() {
  if(arrowGroup.isTouching(pinkB || greenB || blueB )){
    score = score +1
  }
-if(arrowGroup. isTouching(redB)){
-  gameState = END 
-}
+
 
   if (gameState === END) {
     /*Uncomment correct option 
